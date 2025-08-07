@@ -237,3 +237,15 @@ body,
 @utility bg-gradient-conic {
   background-image: conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops));
 }
+
+@media (min-width: 768px) {
+  .custom-grid-rows {
+    grid-template-rows: repeat(8, 20vh);
+  }
+}
+
+@media (min-width: 1280px) {
+  .custom-grid-rows {
+    grid-template-rows: repeat(8, 7.5vh);
+  }
+}
